@@ -2,6 +2,7 @@ import './App.css';
 import IncreaseNum from './Components/IncreaseNumber'
 import ChangeColor from './Components/ChangeColor'
 import ChangeContent from './Components/ChangeContent';
+import Content from './Components/Content';
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <IncreaseNum />
       <ChangeColor />
       <ChangeContent />
+      <Content />
     </div>
   );
 }
